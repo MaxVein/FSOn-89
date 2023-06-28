@@ -75,7 +75,7 @@ const templateLiteral = `I love ${language} so much`; //template literal
 
 // const hours = Math.floor(totalMinutes / 60);
 // const minutes = Math.floor(totalMinutes % 60);
-// const seconds = Math.ceil(((totalMinutes % 60) % 1) * 60);
+// const seconds = Math.ceil((minutes % 1) * 60);
 
 // console.log(hours);
 // console.log(minutes);
