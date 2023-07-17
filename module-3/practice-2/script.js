@@ -38,20 +38,23 @@ const [first, ...other] = [...arr]; //spread
 
 // ************Операція rest та spread в функціях********************************\\
 
-// const min = function (msg, ...props) {
-//   let minVal = props[0];
+const min = function (msg, ...props) {
+  let minVal = props[0];
 
-//   for (const itemI of props) {
-//     if (minVal > itemI) {
-//       minVal = itemI;
-//     }
-//   }
-//   return msg + minVal;
-// };
+  for (const itemI of props) {
+    if (minVal > itemI) {
+      minVal = itemI;
+    }
+  }
+  return msg + minVal;
+};
+
+console.log(minVal)
 
 // const arr = [10, 20, 30, 40, 50, 60];
 
-// console.log(min("Minimum of user salaries",1, 2, 3, 4, 5, 6, 7, 8, 9));
+console.log(min("Minimum of user salaries",1, 2, 3, 4, 5, 6, 7, 8, 9));
+console.log(Math.min(1, 2, 3, 4, 5, 6, 7, 8, 9));
 // console.log(min("Minimum of user salaries", ...arr)); //spread
 
 // const names = ['Alice', 'Kate', 'Emma'];
