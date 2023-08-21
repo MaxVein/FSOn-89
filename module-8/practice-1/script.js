@@ -6,7 +6,6 @@
 // *****Встановлення збірки parcel-project-template*****
 // https://github.com/goitacademy/parcel-project-template
 
-//FSOn-89
 // *****Перепідключення репозиторію*****
 // git remote -v
 
