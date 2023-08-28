@@ -36,19 +36,19 @@
 // const contentEl = document.querySelector(".js-content");
 // const textEl = document.querySelector(".js-text");
 
-let counter = 10;
-textEl.textContent = `Залишилось ${counter} секунд`;
+// let counter = 10;
+// textEl.textContent = `Залишилось ${counter} секунд`;
 
-const idInterval = setInterval(() => {
-  counter -= 1;
-  textEl.textContent = `Залишилось ${counter} секунд`;
-  console.log("interval");
-}, 1000);
+// const idInterval = setInterval(() => {
+//   counter -= 1;
+//   textEl.textContent = `Залишилось ${counter} секунд`;
+//   console.log("interval");
+// }, 1000);
 
-const idTimeout = setTimeout(() => {
-  contentEl.style.display = "none";
-  clearInterval(idInterval);
-}, counter * 1000);
+// const idTimeout = setTimeout(() => {
+//   contentEl.style.display = "none";
+//   clearInterval(idInterval);
+// }, counter * 1000);
 
 // ***********Синхронний та асинхронний JavaScript*********** \\
 // console.log('start');
