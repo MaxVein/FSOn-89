@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 10 Practice 1</title>
+  </head>
+  <body>
+    <!-- Практика -->
+    <form class="search-form js-search-form">
+      <div class="form-group">
+        <label for="city">Введіть назву міста:</label>
+        <input class="search-input" name="city" required />
+      </div>
+      <div class="form-group">
+        <label for="days">Виберіть к-сть днів:</label>
+        <div class="input-group">
+          <select name="days" class="days-select">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+          </select>
+          <button type="submit" class="search-button">Пошук</button>
+        </div>
+      </div>
+    </form>
+
+    <h1 class="js-header weather-location"></h1>
+    <ul class="js-list weather-cards"></ul>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
