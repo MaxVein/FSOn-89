@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/basiclightbox/dist/basicLightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 11 Practice 1</title>
+  </head>
+  <body>
+    <!-- Практика -->
+    <div class="users-wrapper p-3">
+      <div class="users-header d-flex justify-content-between">
+        <h1 class="users-header__title">User Table</h1>
+        <button type="button" class="btn btn-primary users-header__add-btn">
+          <i class="bi bi-plus-lg pe-none"></i>
+          Add user
+        </button>
+      </div>
+      <table class="table users-table">
+        <thead class="users-table__head">
+          <tr>
+            <th class="users-table__head__item" scope="col">Id</th>
+            <th class="users-table__head__item" scope="col">Name</th>
+            <th class="users-table__head__item" scope="col">Surname</th>
+            <th class="users-table__head__item" scope="col">Email</th>
+            <th class="users-table__head__item" scope="col">Interactions</th>
+          </tr>
+        </thead>
+        <tbody class="users-table__body"></tbody>
+      </table>
+
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border loader" role="status"></div>
+      </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
