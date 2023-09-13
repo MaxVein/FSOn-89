@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "johndoe@email.com",
+      "name": "John",
+      "surname": "Doe"
+    },
+    {
+      "email": "wfewfwefew@asfdaswdq",
+      "name": "David",
+      "surname": "Doe",
+      "id": "pTeecdh"
+    },
+    {
+      "email": "dwgewefe@dwfwefw",
+      "name": "Tom",
+      "surname": "Doe",
+      "id": "GoRuLSr"
+    }
+  ]
+}

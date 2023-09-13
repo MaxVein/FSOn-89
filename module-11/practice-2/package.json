@@ -1,0 +1,22 @@
+{
+  "name": "m11-p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "vite": "^4.4.9"
+  },
+  "scripts": {
+    "db:watch": "json-server --watch fake-api/fake-db.json --delay 3000",
+    "dev": "vite",
+    "start": "start npm run dev && start npm run db:watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
